@@ -1,0 +1,168 @@
+/*Estilos generales para el body y html*/
+body, html {
+  margin: 0; /*Se eliminan márgenes por defecto */
+  padding: 0; /*Se elimina relleno por defecto */
+  height: 100%; /*Se ocupa toda la altura de la ventana */
+  background-color: #f5f5f5; /*fondo gris claro */
+  font-family: 'Poppins', sans-serif; /* Fuente */
+  display: flex; /*Se centra */
+  justify-content: center; /*Se centra horizontalmente */
+  align-items: center; /*Se centra verticalmente */
+}
+
+/*Estilos del contenedor principal */
+.contenedor-principal {
+  width: 100%; /*Se ocupa todo el ancho */
+  height: 100%; /*Se ocupa todo la altura */
+  display: flex; /*Se centra */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Caja blanca que contiene el formulario */
+.tarjeta {
+  width: 100%;
+  max-width: 380px; /* Ancho máximo del contenedor */
+  background: #ffffff;  /* Fondo blanco */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 2.5rem 2rem; /* Espaciado interno */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Sombra suave */
+  color: #333333; /* Color de texto */
+  text-align: center; /*Se centra el contenido de texto */
+}
+
+/* Imagen del formulario */
+.imagen-login {
+  width: 90px; /* Ancho */
+  height: 90px; /* Alto */
+  margin: 15px auto 25px auto; /* Márgenes */
+  display: block;
+}
+
+/* Título principal del login */
+.titulo-principal {
+  font-weight: bold; /* Texto en negrita */
+  color: #ff4d4d; /* Color */
+  margin-bottom: 0.5rem; /* Espaciado inferior */
+}
+
+/* Subtítulo */
+.subtitulo {
+  font-weight: bold; /* Texto en negrita */
+  color: #333333; /* Color */
+  margin-bottom: 1.5rem; /* Espaciado inferior */
+}
+
+/* Contenedor de los formularios */
+.contenedor-formulario {
+  padding: 0 1rem; /* Relleno horizontal */
+}
+
+/* Grupo que contiene el ícono e input */
+.grupo-input {
+  margin-bottom: 1.2rem; /* Espacio inferior entre grupos */
+  display: flex; /* Flexbox para alinear ícono e input */
+  align-items: stretch; /* Mismo alto */
+}
+
+/* Ícono a la izquierda del input */
+.icono-input {
+  background: #ff4d4d; /* Fondo rojo */
+  color: white; /* Ícono blanco */
+  border: 1px solid #ff4d4d; /* Borde rojo */
+  padding: 0.85rem 1rem; /* Relleno interno */
+  font-size: 1.1rem; /* Tamaño del ícono */
+  width: 45px; /* Ancho */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px 0 0 50px; /* Bordes redondeados a la izquierda */
+}
+
+/* Input de texto */
+.campo-texto {
+  background: #ffffff; /* Fondo blanco */
+  border: 1px solid #ff4d4d; /* Borde rojo */
+  border-left: none;
+  border-radius: 0 50px 50px 0; /* Bordes redondeados a la derecha */
+  padding: 0.85rem 1rem; 
+  color: #333333; /* Color de texto */
+  font-size: 1rem;
+  transition: all 0.3s ease; /* Transición suave al enfocar */
+  flex: 1;
+}
+
+/* Estilo cuando el input está enfocado */
+.campo-texto:focus {
+  border-color: #ff4d4d; /*Borde rojo */
+  box-shadow: 0 0 0 2px rgba(255, 77, 77, 0.2); /* Sombra externa */
+  outline: none;
+}
+
+/* Espacio para el botón */
+.contenedor-boton {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Botón de login y registro */
+.boton-principal {
+  width: 100%; /* Ocupa todo el ancho */
+  background: #ff4d4d; /* Fondo rojo */
+  border: none; /* Sin borde */
+  padding: 0.9rem 0; /* Alto */
+  border-radius: 50px; /* Bordes redondeados */
+  font-weight: 600; /* Texto en seminegrita */
+  font-size: 1.1rem;
+  color: white; /* Texto blanco */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Cambio de color al pasar el cursor */
+.boton-principal:hover {
+  background: #e60000; /* Rojo más oscuro */
+}
+
+/* Estilo del contenedor de alerta de errores o mensajes */
+.alerta {
+  background-color: #ffeeee; /* Fondo rosado */
+  border: 1px solid #ff4d4d; /* Borde rojo */
+  padding: 0.8rem 1rem; /* Espaciado interno */
+  border-radius: 50px; /* Bordes redondeados */
+  font-weight: 500; /* Texto un poco más fuerte */
+  font-size: 0.9rem;
+  color: #ff4d4d; /* Texto rojo */
+  margin-bottom: 1.2rem;
+  display: none; /* Oculto por defecto */
+  text-align: center; /* Centrado */
+}
+
+/* Estilo del texto de ayuda con enlaces */
+.texto-enlace {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666666;
+  margin-top: 1.5rem;
+}
+
+/* Estilo para los enlaces de registro */
+.texto-enlace a {
+  color: #ff4d4d;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Cambio de color y subrayado al pasar el cursor */
+.texto-enlace a:hover {
+  color: #e60000;
+  text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+  .tarjeta {
+    padding: 2rem 1.5rem;
+    margin: 0 1rem;
+  }
+}
