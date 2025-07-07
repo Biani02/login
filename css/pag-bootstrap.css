@@ -1,0 +1,39 @@
+.fn-morado {
+  background-color: #dfc1fd; 
+}
+
+.texto-fn{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.navbar-morado {
+  background-color: #ce9efe !important;
+}
+
+.msj-principal{
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.msj-subprincipal {
+    font-size: 40px;
+}
+
+.titulo-mision {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.msj-mision {
+    font-size: 30px;
+}
+
+.titulo-vision {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.msj-vision {
+    font-size: 30px;
+}
