@@ -37,7 +37,6 @@ Tambien se compone de una carpeta nombrada js, en la cual contiene un archivo ll
 Tambien se compone de una carpeta nombrada css, en la cual tambien contiene un archivo llamado login2.css, que es el encargado de darle un diseño boito al login, estabelecer colores para los botones, tipo de letra, tamaño, etc.
 
 Tambien se compone de una carpeta llamada img, en la cual contiene todas las imagenes que se utilizaron para el login
-
 Para poder hacer la simulacion de que se esta iniciando sesion o ingresando a un sistema, cuando se inicia sesion de manera exitosa, se redirecciona a una pagina web de un negocio simulado, en este caso de una joyeria, por lo cual, en el proyecto se visualiza un archivo nombrado pag-bootstrap.html
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
